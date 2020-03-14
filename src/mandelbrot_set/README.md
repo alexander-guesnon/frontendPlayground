@@ -1,4 +1,14 @@
 # mandelbrot_set
+## What?
+A mandelbrot set is a set of number on the complex plain. <br>
+It makes a preety design when you render it
+
+## Why?
+Its pretty and fun.
+
+## How?
+
+Using vue js I want to control what a person can see in the complex plain.
 
 ## Project setup
 ```
