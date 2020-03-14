@@ -1,0 +1,15 @@
+
+@startsalt
+{^"Mandelbrot Set"
+{[restart]|[kill]
+[+ ]|[- ]
+} |
+{+
+. | . | . | . | .
+. 
+. | . | image | . | .
+.
+.
+}
+}
+@endsalt
