@@ -1,5 +1,5 @@
 <template functional>
   <button>
-    <slot></slot>
+    <slot>I am a button</slot>
    </button>
 </template>

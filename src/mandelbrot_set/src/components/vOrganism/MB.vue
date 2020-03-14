@@ -1,13 +1,19 @@
 <template>
-    
+  <div>
+   <div> Mandlebroght set</div>
+   <VControls />
+   <vImage />
+   </div>
 </template>
 <script lang="ts">
-import Vue from 'vue'
-export default Vue.extend({
-    
+import { Component, Vue } from "vue-property-decorator";
+import vImage from "../vAtom/vImage.vue";
+import VControls from "../vMolecule/vControls.vue"
+@Component({
+  components: {
+    VControls,
+    vImage
+  }
 })
+export default class MB extends Vue {}
 </script>
-
-<style lang="sass">
-
-</style>
