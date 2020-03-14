@@ -3,6 +3,7 @@
 {^"Mandelbrot Set"
 {[restart]|[kill]
 [+ ]|[- ]
+accuracy| "     "
 } |
 {+
 . | . | . | . | .
