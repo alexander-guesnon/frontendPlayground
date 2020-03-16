@@ -1,8 +1,9 @@
 <template functional>
-  <button>
+  <button class="vButton">
     <slot>I am a button</slot>
   </button>
 </template>
-<!--
-TODO: dynamic css class
--->
+<style lang="sass">
+  .vButton
+    position: absolute
+</style>
