@@ -1,3 +1,23 @@
-<template funcional>
-  <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000"></canvas>
-</template>
+<template funcional
+  ><canvas class="vImage" :width="vWidth" :height="vHight"></canvas
+></template>
+
+<script lang="ts">
+import Vue from "vue";
+export default Vue.extend({
+  data: () => {
+    return {
+      vWidth: 300,
+      vHight: 300
+    };
+  }
+});
+</script>
+
+<style lang="sass">
+
+.vImage
+  border-style: solid
+  border-color: black
+  border-width: 1px
+</style>

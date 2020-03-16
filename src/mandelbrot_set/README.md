@@ -10,6 +10,14 @@ Its pretty and fun.
 
 Using vue js I want to control what a person can see in the complex plain.
 
+## todo
+ [ ] layout
+ [ ] USES STORE AS A TIME MACHENE FOR PLAY BACK
+ [ ] cahcing?
+ [ ] resoltion
+ [ ] magnification factor
+ [ ] capture frames
+ [ ] zoom gif
 ## Project setup
 ```
 npm install
