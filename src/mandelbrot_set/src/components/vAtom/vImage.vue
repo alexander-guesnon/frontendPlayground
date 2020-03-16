@@ -1,6 +1,6 @@
-<template funcional
-  ><canvas class="vImage" :width="vWidth" :height="vHight"></canvas
-></template>
+<template funcional>
+  <canvas class="vImage" :width="vWidth" :height="vHight"></canvas>
+</template>
 
 <script lang="ts">
 import Vue from "vue";

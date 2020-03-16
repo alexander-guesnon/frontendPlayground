@@ -1,11 +1,11 @@
-<template
-  ><div class="vControls">
+<template>
+  <div class="vControls">
     <vButton>restart</vButton>
     <vButton>kill</vButton>
     <vButton>+</vButton>
     <vButton>-</vButton>
-  </div></template
->
+  </div>
+</template>
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import vButton from "../vAtom/vButton.vue";
