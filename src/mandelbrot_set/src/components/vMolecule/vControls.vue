@@ -1,9 +1,13 @@
 <template>
   <div class="vControls">
-    <vButton>restart</vButton>
-    <vButton>kill</vButton>
-    <vButton>+</vButton>
-    <vButton>-</vButton>
+    <vButton>♻️</vButton>
+    <vButton>💤 </vButton>
+    <vButton>➕</vButton>
+    <vButton>➖</vButton>
+    <vButton>⬆️</vButton>
+    <vButton>➡️</vButton>
+    <vButton>⬇️</vButton>
+    <vButton>⬅️</vButton>
   </div>
 </template>
 <script lang="ts">
@@ -18,25 +22,21 @@ export default class VControls extends Vue {}
 </script>
 
 <style lang="sass">
-$min-top: 125px
-$min-left: 75px
+$min-top: 100
+$min-left: 50
+$icons: 100px
+$arrows: 50px
+
 .vControls
   position:relative
   top: 0
   width: 300px
   height: 300px
+  
   background-color: grey
 
-  .vButton:nth-child(1)
-    top: $min-top
-    left: $min-left
-  .vButton:nth-child(2)
-    top: $min-top
-    left: $min-left + 100px
-  .vButton:nth-child(3)
-    top: $min-top + 100px
-    left: $min-left
-  .vButton:nth-child(4)
-    top: $min-top + 100px
-    left: $min-left + 100px
+@for $i from 1 through 4
+  .vButton:nth-child(#{$i})
+    top: ($min-top + (50 * ($i - 1)) ) * 1px
+    left: ($min-left) * 1px
 </style>
