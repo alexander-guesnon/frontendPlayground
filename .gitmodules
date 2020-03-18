@@ -1,0 +1,3 @@
+[submodule "src/mandelbrot_set"]
+	path = src/mandelbrot_set
+	url = git@github.com:alexander-guesnon/mandelbrot_set.git
