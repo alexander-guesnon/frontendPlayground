@@ -1,18 +1,12 @@
-<template>
-  <div class="vControls">
-    <vButton>♻️</vButton>
-    <vButton>💤 </vButton>
-    <vButton>➕</vButton>
-    <vButton>➖</vButton>
-    <vButton>⬆️</vButton>
-    <vButton>➡️</vButton>
-    <vButton>⬇️</vButton>
-    <vButton>⬅️</vButton>
-  </div>
+<template lang="pug">
+  div.vControls
+    each val in ['♻️','💤','➕','➖','⬆️','➡️','⬇️','⬅️']
+      div(class=val)
+        vButton=val
 </template>
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import vButton from "../vAtom/vButton.vue";
+import vButton  from "../vAtom/vButton.vue";
 @Component({
   components: {
     vButton
